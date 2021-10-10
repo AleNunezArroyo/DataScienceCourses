@@ -19,7 +19,7 @@ print(homelessness.head())
 ```
 
 ```scheme
-							 region       state  individuals  family_members  state_pop
+	       region       state  individuals  family_members  state_pop
 0  East South Central     Alabama       2570.0           864.0    4887681
 1             Pacific      Alaska       1434.0           582.0     735139
 2            Mountain     Arizona       7259.0          2606.0    7158024
@@ -67,7 +67,7 @@ print(homelessness.describe())
 ```
 
 ```scheme
-			 individuals  family_members  state_pop
+       individuals  family_members  state_pop
 count       51.000          51.000  5.100e+01
 mean      7225.784        3504.882  6.406e+06
 std      15991.025        7805.412  7.327e+06
